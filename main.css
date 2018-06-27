@@ -1,26 +1,29 @@
 * {
 	padding: 0px;
 	margin: 0px;
+	font-family: arial, sans-serif;
 }
 
 header {
     border-style: solid;
 }
 
-ul {
-	width: 50%;
-}
-
-li {
-	margin : 10px;
+nav li {
+	margin : 5px;
 	padding: 5px;
 	list-style: none;
-}
-
-nav li {
-	display: inline;
+	display: inline-block;
 }
 
 nav li:nth-child(6) {
 	margin-right: 200px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: gray;
+}
+
+nav li a:hover {
+	color: black;
 }
