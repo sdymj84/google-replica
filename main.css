@@ -1,3 +1,26 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
 header {
     border-style: solid;
+}
+
+ul {
+	width: 50%;
+}
+
+li {
+	margin : 10px;
+	padding: 5px;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li:nth-child(6) {
+	margin-right: 200px;
 }
