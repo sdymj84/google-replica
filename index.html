@@ -12,8 +12,8 @@
     <header>
         <div>
             <form>
-				<img href="#" src="res/googlelogo.png" alt="Google" height="44" width="120">
-				<input type="text" name="searchBar">
+				<img id="logo" href="#" src="res/googlelogo.png" alt="Google" height="44" width="120">
+				<input type="text" id="searchBar">
 			</form>
         </div>
         <nav class="nav">
@@ -30,18 +30,23 @@
         </nav>
     </header>
     <main>
-        <p>About 699,000,000 results (0.83 seconds)</p>
-        <section>
-            <h3>Web development - Wikipedia</h3>
-            <p>https://en.wikipedia.org/wiki/Web_development</p>
-            <p>Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network).</p>
-            <p>‎Web development tools · ‎Web application development · ‎Web design</p>
-        </section>
-        <section>
-            <h3>Web Development – freeCodeCamp</h3>
-            <p>https://medium.freecodecamp.org/tagged/web-development</p>
-            <p>Read writing about Web Development in freeCodeCamp. Our community publishes stories worth reading on development, design, and data science.</p>
-        </section>
+        <div id="searchResult">
+            <p id="searchTime" class="result">About 699,000,000 results (0.83 seconds)</p>
+            <section class="result">
+                <h3>Web development - Wikipedia</h3>
+                <p class="url">https://en.wikipedia.org/wiki/Web_development</p>
+                <p>Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network).</p>
+                <p>‎Web development tools · ‎Web application development · ‎Web design</p>
+            </section>
+            <section class="result">
+                <h3>Web Development – freeCodeCamp</h3>
+                <p class="url">https://medium.freecodecamp.org/tagged/web-development</p>
+                <p>Read writing about Web Development in freeCodeCamp. Our community publishes stories worth reading on development, design, and data science.</p>
+            </section>
+        </div>
+        <div id="sidebox">
+            See results about
+        </div>
     </main>
     <footer>
 
